@@ -1,0 +1,39 @@
+.board {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	grid-auto-flow: column;
+	gap: 10px;
+	margin: 20px auto;
+	max-width: 70vh;
+}
+
+.empty {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #222;
+	border-radius: 100%;
+	aspect-ratio: 1;
+	cursor: pointer;
+}
+
+.red {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: tomato;
+	color: #222;
+	border-radius: 100%;
+	aspect-ratio: 1;
+}
+
+.blue {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: steelblue;
+	color: #222;
+	border-radius: 100%;
+	aspect-ratio: 1;
+}

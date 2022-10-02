@@ -1,0 +1,35 @@
+.board {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 10px;
+	margin: 20px auto;
+	max-width: 70vh;
+}
+
+.empty {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #222;
+	aspect-ratio: 1;
+	cursor: pointer;
+}
+
+.circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: tomato;
+	color: #222;
+	aspect-ratio: 1;
+}
+
+.cross {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: steelblue;
+	color: #222;
+	aspect-ratio: 1;
+}

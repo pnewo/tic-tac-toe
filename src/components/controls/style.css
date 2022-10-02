@@ -1,0 +1,17 @@
+.controls {
+	display: flex;
+	justify-content: center;
+}
+
+.button {
+	cursor: pointer;
+	background-color: #222;
+	border: 0;
+	color: tomato;
+	padding: 15px;
+	transition: transform 0.1s ease-out;
+}
+
+.button:hover {
+	transform: scale(1.05);
+}
