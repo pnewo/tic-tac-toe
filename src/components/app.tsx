@@ -8,12 +8,12 @@ import { Connect4Status } from './connect4/status'
 
 const App = () => (
     <div id="app">
-        {/* <Status /> */}
-        {/* <Board /> */}
-        {/* <Controls /> */}
-        <Connect4Status />
+        <Status />
+        <Board />
+        <Controls />
+        {/* <Connect4Status />
         <Connect4 />
-        <Connect4Controls />
+        <Connect4Controls /> */}
     </div>
 )
 
